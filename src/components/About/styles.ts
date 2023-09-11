@@ -15,11 +15,12 @@ export const Container = styled.section`
   }
   .hability{
     display: flex;
+    height:100px
     flex-direction: column;
     align-items: center;
 
     img{
-      width: 3.4rem;
+      width: 5.9rem;
     }
   }
 
@@ -40,8 +41,6 @@ export const Container = styled.section`
     font-weight: 500;
   }
   
-  
-
   .about-image{
     text-align: center;
    img{
@@ -49,8 +48,6 @@ export const Container = styled.section`
      width: 100%;
      filter: grayscale(1);
      transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
      }
    }
   }
@@ -58,6 +55,7 @@ export const Container = styled.section`
   @media only screen and (max-width: 480px) {
     .about-image {
       max-width: 100%;
+      max-height:80%
       margin-top: 4rem;
     }
   }

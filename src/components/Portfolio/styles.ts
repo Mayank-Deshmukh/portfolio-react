@@ -29,7 +29,9 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background-color: var(--black);
+        box-shadow: 0 0 10px rgba(129, 88, 60, 0.7), 0 0 20px rgba(129, 88, 60, 0.7), 0 0 30px rgba(129, 88, 60, 0.7);
+        }
       }
 
       header{

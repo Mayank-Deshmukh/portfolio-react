@@ -6,83 +6,125 @@ import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import pythonIcon from "../../assets/python-icon.svg";
+import cppIcon from "../../assets/cpp-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
+import bootstrapIcon from "../../assets/bootstrap-ico.svg";
+import djangoIcon from "../../assets/django-ico.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import DownloadedImage from '../../assets/Mayank Deshmukh.jpg';
 
 
 export function About(){
   return(
     <Container id="sobre">
-      <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
-          <h2>Sobre mim</h2>
+      <div className="about-image">
+        <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
+          <img src={DownloadedImage} alt="Imagem de perfil" />
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p>Me chamo João Túlio, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
+      </div>
+      <div className="about-text">
+      <div><br/><hr/><hr/><br/></div>
+        <ScrollAnimation animateIn="fadeInLeft">
+          <h2>About me</h2>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        <p>My name is João Túlio, I am a computer technician with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. I improved my skills as a Front-End and Back-End developer</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
-
-          <p>Desenvolvo sites e aplicações utilizando HTML, CSS, e JavaScript. Tenho familiaridade em desenvolver layouts que me fornecem. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.</p>
+        <p>I develop websites and applications using HTML, CSS, and JavaScript. I am familiar with developing layouts that provide me. I'm always improving myself with each project they put in my hands.</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-
-          <p>Sou uma pessoa dedicada que corre atrás para realizar seus sonhos, trabalhador e orientado a resultados, sempre busco alcançar minha melhor versão.</p>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+        <div><hr/><hr/><br/></div>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+          <h3>Here are my main skills&nbsp;&nbsp;:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
-              <img src={reactIcon} alt="React" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={reactIcon} alt="React" /><p>React</p>
             </ScrollAnimation>
-          </div>
+          </div>  
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-            <img src={vueIcon} alt="Vue" />
-          </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}> 
-            <img src={jsIcon} alt="JavaScript" />
-          </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}> 
-            <img src={htmlIcon} alt="Html" />
+          <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
+            <img src={vueIcon} alt="Vue" /><p>Vue.js</p>
           </ScrollAnimation>
           </div>
 
           <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}> 
-            <img src={cssIcon} alt="Css" />
+            <img src={htmlIcon} alt="Html" /><p>Html5</p>
           </ScrollAnimation>
           </div>
+
           <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
-            <img src={nodeIcon} alt="Node" />
+            <img src={cssIcon} alt="Css" /><p>CSS3</p>
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-            <img src={typescriptIcon} alt="Typescript" />
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}> 
+            <img src={cppIcon} alt="Css" /><p>C++</p>
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}> 
+            <img src={jsIcon} alt="JavaScript" /><p>Javascript</p>
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}> 
+            <img src={pythonIcon} alt="Css" /><p>Python</p>
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}> 
+            <img src={djangoIcon} alt="Css" /><p>Django</p>
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}> 
+            <img src={bootstrapIcon} alt="Css" /><p>Bootstrap</p>
           </ScrollAnimation>
           </div>
 
 
-        </div>
-      </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Imagem de perfil" />
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}> 
+            <img src={nodeIcon} alt="Node"/><p>Node</p>
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
+            <img src={typescriptIcon} alt="Typescript" /><p>Typescript</p>
+          </ScrollAnimation>
+          </div>
+          <div>
+            <div><hr/><hr/><br/></div>
+          <ScrollAnimation animateIn="fadeInLeft">
+          <h2>Awards</h2>
         </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        <p><li>- Runner-up at "Pygame" Game Development
+            Hackathon at St. Vincent Palotti College, Nagpur, 2020</li></p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <p><li>- State Football Tournament 2019-20 (Goalkeeper)</li></p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000}>
+        <p><li>- ALACRITY Fest Table Tennis Runner-up (Represented
+              FE Department)</li></p>
+        </ScrollAnimation>
+        </div>
+        </div>
       </div>
     </Container>
   )

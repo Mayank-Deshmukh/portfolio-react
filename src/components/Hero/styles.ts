@@ -60,4 +60,11 @@ export const Container = styled.section`
   @media(max-width: 480px){
     margin-top: 35%;
   }
+  /* Hero.css */
+  @media (max-width: 768px) {
+  .responsive-button {
+    font-size: 14px; 
+    padding: 10px 20px;
+  }
+}
 `
