@@ -30,10 +30,10 @@ export function About(){
           <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-        <p>My name is João Túlio, I am a computer technician with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. I improved my skills as a Front-End and Back-End developer</p>
+        <p>Myself Mayank, I am a B.tech undergrad with great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. I'm constantly imporveing my Full-stack developing skills. I improved my skills as a Front-End and Back-End developer</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
-        <p>I develop websites and applications using HTML, CSS, and JavaScript. I am familiar with developing layouts that provide me. I'm always improving myself with each project they put in my hands.</p>
+        <p>With my passion for tech , I am very egar to contribute to a bigger cause and work with an innovative team.</p>
         </ScrollAnimation>
         <div><hr/><hr/><br/></div>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
