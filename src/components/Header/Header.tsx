@@ -21,7 +21,7 @@ export function Header() {
       <Router>
         <HashLink smooth to="#home" className="logo">
           <span style={{ color: 'green' }}>Mayank</span>
-          <span>Deshmukh</span>
+          <span style={{fontSize :'26px'}}>Deshmukh</span>
         </HashLink>
 
         <input
