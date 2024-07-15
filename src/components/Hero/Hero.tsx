@@ -3,7 +3,7 @@ import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
-import Curriculo from '../../assets/Mayank_Deshmukh_resume.pdf'
+import Curriculo from '../../assets/Mayank Resume.pdf'
 export function Hero(){
   return(
     <Container id="home">
