@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.43c86f1c.css",
+    "main.js": "/portfolio-react/static/js/main.f18d0fe3.js",
+    "static/media/Mayank Resume.pdf": "/portfolio-react/static/media/Mayank Resume.c8da33079f5e7ba083ea.pdf",
+    "static/media/Mayank Deshmukh.jpg": "/portfolio-react/static/media/Mayank Deshmukh.47ccc7571db666071b1c.jpg",
+    "static/media/github.png": "/portfolio-react/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/linkedin.png": "/portfolio-react/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/illustration.svg": "/portfolio-react/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/sass-icon.svg": "/portfolio-react/static/media/sass-icon.3572f53ec4f404e921a9e8193cdb70fe.svg",
+    "static/media/mysql-icon.svg": "/portfolio-react/static/media/mysql-icon.64f88a817c7f8c20c853ea3acbca9310.svg",
+    "static/media/node-icon.svg": "/portfolio-react/static/media/node-icon.cc3d45a160579a330a5c17cc2c8f1407.svg",
+    "static/media/typescript-icon.svg": "/portfolio-react/static/media/typescript-icon.f3bc0fd998dea6b1266965436af97a49.svg",
+    "static/media/django-ico.svg": "/portfolio-react/static/media/django-ico.86f66603de45ec6bb35e418d377f61da.svg",
+    "static/media/bootstrap-icon.svg": "/portfolio-react/static/media/bootstrap-icon.09b773cc0f17dc078cc9864e5e8006ba.svg",
+    "static/media/react-icon.svg": "/portfolio-react/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
+    "index.html": "/portfolio-react/index.html",
+    "static/media/cpp-icon.svg": "/portfolio-react/static/media/cpp-icon.fe78e44f56df84198a9bf095e135e997.svg",
+    "static/media/bootstrap-ico.svg": "/portfolio-react/static/media/bootstrap-ico.da3402ebe26076e039e56f06b3c07115.svg",
+    "static/media/email-icon.svg": "/portfolio-react/static/media/email-icon.a5dd245e834641e729e77e40309039c4.svg",
+    "static/media/python-icon.svg": "/portfolio-react/static/media/python-icon.3ff24e41cd63cf1f16a09cc81ec73240.svg",
+    "static/media/html-icon.svg": "/portfolio-react/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
+    "static/media/css-icon.svg": "/portfolio-react/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
+    "static/media/vscode-icon.svg": "/portfolio-react/static/media/vscode-icon.7bfadaaeba8770093f98a79aa2c77d41.svg",
+    "static/media/js-icon.svg": "/portfolio-react/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
+    "static/media/vue-icon.svg": "/portfolio-react/static/media/vue-icon.7219cc0384993fc067ee20c94a66b1e9.svg",
+    "static/media/github-icon.svg": "/portfolio-react/static/media/github-icon.3e35c6d8caf289360ea481fe9c36a729.svg",
+    "static/media/external-link-icon.svg": "/portfolio-react/static/media/external-link-icon.54fbdd18739fd0fb7c60a951d5adacd6.svg",
+    "main.43c86f1c.css.map": "/portfolio-react/static/css/main.43c86f1c.css.map",
+    "main.f18d0fe3.js.map": "/portfolio-react/static/js/main.f18d0fe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43c86f1c.css",
+    "static/js/main.f18d0fe3.js"
+  ]
+}
